@@ -77,7 +77,6 @@ body {
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--white);
-    border: 2px solid var(--white);
     padding: 0.3rem 0.8rem;
     transition: var(--transition);
 }
@@ -85,15 +84,12 @@ body {
 .logo-image {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
     object-fit: cover;
-    border: 2px solid var(--white);
     transition: var(--transition);
 }
 
 .logo:hover .logo-image {
     transform: scale(1.05);
-    border-color: var(--lighter-grey);
 }
 
 .logo:hover {
@@ -177,12 +173,12 @@ body {
 
 .hero-logo {
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .hero-logo-image {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
     object-fit: cover;
     transition: var(--smooth-transition);
 }
@@ -190,8 +186,6 @@ body {
 .logo-circle {
     width: 120px;
     height: 120px;
-    border: 3px solid var(--white);
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,9 +198,7 @@ body {
 }
 
 .logo-circle:hover {
-    transform: scale(1.1) rotate(10deg);
-    background: transparent;
-    color: transparent;
+    transform: scale(1.1);
 }
 
 .logo-circle:hover .hero-logo-image {
@@ -416,7 +408,6 @@ section {
 .about-profile-image {
     width: 280px;
     height: 280px;
-    border-radius: 50%;
     object-fit: cover;
     transition: var(--smooth-transition);
 }
@@ -424,8 +415,6 @@ section {
 .image-placeholder {
     width: 300px;
     height: 300px;
-    border: 3px solid var(--white);
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1117,7 +1106,6 @@ footer {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--white);
-    border: 2px solid var(--white);
     padding: 0.3rem 0.6rem;
     display: flex;
     align-items: center;
@@ -1127,15 +1115,12 @@ footer {
 .footer-logo-image {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     object-fit: cover;
-    border: 2px solid var(--white);
     transition: var(--transition);
 }
 
 .footer-logo:hover .footer-logo-image {
     transform: scale(1.1);
-    border-color: var(--lighter-grey);
 }
 
 .footer-links {
